@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #000000;
   color: #999999;
   font-family: 'Poppins', Helvetica, sans-serif;
   text-align: center;
@@ -27,7 +27,7 @@ body {
 #train-model-button {
   width: 200px;
   --background-color: #1A73E8;
-  --color: #ffffff;
+  --color: #000000;
 }
 #train-model-button:hover {
   --color: #1A73E8;
