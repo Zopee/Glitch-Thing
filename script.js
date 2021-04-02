@@ -24,8 +24,8 @@ const wizard = new tm.Wizard({
       name: "Tongue",
       title: "“Record examples with your tongue out.",
       description:
-        "Hold the button and take at least 50 pictures with your tongue out.  Try to move around a bit to add some variability."
-    },
+        "Take at least 50 pictures with your tongue out.  Try to move around a bit to add some variability."
+    }
   ],
   onLoad: () => {
     console.log("model has loaded");
