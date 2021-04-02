@@ -9,17 +9,23 @@ const wizard = new tm.Wizard({
   },
   classes: [
     {
-      name: "Hand up",
-      title: "“Record examples with your hand up.",
+      name: "Smile",
+      title: "“Record examples while smiling.",
       description:
-        "Hold the button and take at least 20 pictures with your hand up. Make sure that your hand is in frame for every example."
+        "Hold the button and take at least 50 pictures while smiling.  Try to move around a bit to add some variability."
     },
     {
-      name: "Hand down",
-      title: "Record examples with your hand down.",
+      name: "Frown",
+      title: "Record examples while frowning.",
       description:
-        "Take at least 20 pictures of your hand down. Make sure that your hand is out of frame for every example."
-    }
+        "Take at least 50 pictures of your hand down.  Try to move around a bit to add some variability."
+    },
+    {
+      name: "Tongue",
+      title: "“Record examples with your tongue out.",
+      description:
+        "Hold the button and take at least 50 pictures with your tongue out.  Try to move around a bit to add some variability."
+    },
   ],
   onLoad: () => {
     console.log("model has loaded");
